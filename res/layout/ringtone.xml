@@ -1,0 +1,100 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@drawable/grey" >
+
+    <TextView
+        android:id="@+id/textView1"
+        android:layout_width="match_parent"
+        android:layout_height="50sp"
+        android:text="Set Ringtone"
+        android:textColor="#191919"
+        android:textSize="30sp" 
+        android:gravity="center"/>
+    <ScrollView 
+        android:layout_width="match_parent"
+        android:layout_height="307dp"
+        android:layout_weight="0.79" >
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical" >
+            
+
+    <Button
+        android:id="@+id/annoy"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize="20sp"
+        android:gravity="left"
+        android:text="Annoying" />
+
+    <Button
+        android:id="@+id/coo"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+       android:textSize="20sp"
+        android:gravity="left"
+        android:text="Coo-Coo" />
+
+    <Button
+        android:id="@+id/cuckoo"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize="20sp"
+        android:gravity="left"
+        android:text="Cuckoo" />
+
+    <Button
+        android:id="@+id/loud"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="left"
+        android:textSize="20sp"
+        android:text="Loud" />
+
+    <Button
+        android:id="@+id/old_alarm"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize="20sp"
+        android:gravity="left"
+        android:text="Old Alarm" />
+
+    <Button
+        android:id="@+id/old_fashioned"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize="20sp"
+        android:gravity="left"
+        android:text="Old fashioned" />
+
+    <Button
+        android:id="@+id/short_call"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+       android:textSize="20sp"
+        android:gravity="left"
+        android:text="Short Call" />
+
+    <Button
+        android:id="@+id/wake_up"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="left"
+        android:textSize="20sp"
+        android:text="Wake Up" />
+
+    <Button
+        android:id="@+id/set"
+        android:layout_width="match_parent"
+        android:layout_height="72dp"
+        
+        android:text="Set Alarm Tone" />
+
+    </LinearLayout>
+    </ScrollView>
+
+</LinearLayout>
